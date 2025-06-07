@@ -19,7 +19,7 @@
 
 .container {
   margin: 0;
-  padding-top: 10vh;
+  padding-top: 1vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,6 +41,13 @@
   display: flex;
   justify-content: center;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 40px;
+}
 
 a {
   font-weight: 500;
@@ -61,7 +68,8 @@ button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1.5em;
+  width: 1000px;
   font-weight: 500;
   font-family: inherit;
   color: #0f0f0f;
@@ -91,10 +99,21 @@ button {
   margin-right: 5px;
 }
 
+#greet-submit{
+    background-color: #2718ae;
+
+}
+
+#eliminarDB{
+  width: 10px;
+  background-color: red;
+  height: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
-    background-color: #2f2f2f;
+    background-color: #426486;
   }
 
   a:hover {
